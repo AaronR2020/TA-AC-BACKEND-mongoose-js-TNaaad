@@ -5,11 +5,11 @@ Answer below questions
 - do not mutate previous schema unless specified
 - create a new schema for each question
 
-Q. create an express server
+Q. create an express server [done]
 
-- use mongoose to connect to mongodb database
+- use mongoose to connect to mongodb database  [done]
 
-Q. Create an article Schema with fields
+Q. Create an article Schema with fields [done]
 
 - title -> String
 - description -> String
@@ -17,19 +17,19 @@ Q. Create an article Schema with fields
 - createdAt -> Date, defaults to current date
 - likes -> Number, defaults to zero
 
-Q. create a user schema with following fields and type
+Q. create a user schema with following fields and type [done]
 1.name -> string
 2.email -> string
 3.age -> number
 
-Q. update user schema to make email lowercase and default age to be 0.
+Q. update user schema to make email lowercase and default age to be 0.[done]
 
-Q. Update user schema
+Q. Update user schema[done]
 
 - contains password field with minimum 5 characters
-- add createdAt field of type date and default it to current date.
+- add createdAt field of type date and default it to current date.[done]
 
-Q. Add address Schema with fields
+Q. Add address Schema with fields[done]
 
 - village -> String
 - city -> String
@@ -37,14 +37,14 @@ Q. Add address Schema with fields
 - pin -> number
 - user -> ObjectId of User from user schema
 
-Q. Update address schema to contain required validators for state and city field.
+Q. Update address schema to contain required validators for state and city field.[done]
 
-Q. Add favourites in user schema of type array of strings.
+Q. Add favourites in user schema of type array of strings.[done]
 
-Q. Add timestamps to user and address schema.
+Q. Add timestamps to user and address schema.[done]
 
-Q. create model for users schema created above and export it.
+Q. create model for users schema created above and export it.[done]
 
-Q. create model for article schema created above and export it.
+Q. create model for article schema created above and export it.[done]
 
-Q. create model for address schema created above and export it.
+Q. create model for address schema created above and export it.[done]
